@@ -1,0 +1,12 @@
+ 
+****************************************
+Report : transitive_fanout
+        -clock_tree
+Design : behavioral
+Version: C-2009.06-SP5
+Date   : Thu Apr 25 11:34:45 2019
+****************************************
+
+No sources.
+
+1

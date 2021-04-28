@@ -1,0 +1,61 @@
+ 
+****************************************
+Report : qor
+Design : behavioral
+Version: C-2009.06-SP5
+Date   : Thu Apr 25 11:34:45 2019
+****************************************
+
+
+  Timing Path Group (none)
+  -----------------------------------
+  Levels of Logic:              17.00
+  Critical Path Length:          1.76
+  Critical Path Slack:         uninit
+  Critical Path Clk Period:     Undef
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                 47
+  Buf/Inv Cell Count:              14
+  CT Buf/Inv Cell Count:            0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      685.238399
+  Noncombinational Area:     0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:               685.238399
+  Design Area:             685.238399
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:            64
+  Nets With Violations:             0
+  -----------------------------------
+
+
+  Hostname: ICICVM.lab.edu
+
+  Compile CPU Statistics
+  -----------------------------------
+  Resource Sharing:              0.00
+  Logic Optimization:            0.04
+  Mapping Optimization:          2.25
+  -----------------------------------
+  Overall Compile Time:          4.37
+
+1

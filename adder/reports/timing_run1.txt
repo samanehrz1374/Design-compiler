@@ -1,0 +1,48 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : behavioral
+Version: C-2009.06-SP5
+Date   : Thu Apr 25 11:34:44 2019
+****************************************
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: Cin (input port)
+  Endpoint: S[7] (output port)
+  Path Group: (none)
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  input external delay                     0.00       0.00 r
+  Cin (in)                                 0.00       0.00 r
+  U45/Y (OAI21XL)                          0.05       0.05 f
+  U44/Y (OAI2BB1X1)                        0.08       0.13 r
+  U14/Y (INVX1)                            0.05       0.18 f
+  U40/Y (OAI21XL)                          0.16       0.34 r
+  U12/Y (INVX1)                            0.06       0.40 f
+  U36/Y (OAI21XL)                          0.16       0.56 r
+  U10/Y (INVX1)                            0.06       0.62 f
+  U32/Y (OAI21XL)                          0.16       0.78 r
+  U8/Y (INVX1)                             0.06       0.83 f
+  U28/Y (OAI21XL)                          0.16       1.00 r
+  U6/Y (INVX1)                             0.06       1.05 f
+  U24/Y (OAI21XL)                          0.16       1.22 r
+  U4/Y (INVX1)                             0.06       1.27 f
+  U20/Y (OAI21XL)                          0.16       1.43 r
+  U2/Y (INVX1)                             0.06       1.49 f
+  U19/Y (AOI2BB2X1)                        0.17       1.66 f
+  U18/Y (MXI2X1)                           0.09       1.76 f
+  S[7] (out)                               0.00       1.76 f
+  data arrival time                                   1.76
+  -----------------------------------------------------------
+  (Path is unconstrained)
+
+
+1
