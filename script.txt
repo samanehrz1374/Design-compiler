@@ -1,0 +1,41 @@
+دستورات را به ترتیب انجام دهید.
+
+تغیییر تاریخ لینوکس به 2019
+
+مشخص کردن مسیر فایل های سنتز در ترمینال لینوکس
+
+cd /home/icic/Desktop/adder
+
+
+
+راه اندازی ابزار سنتز
+
+design_vision
+
+دستورات ابزار سنتز
+
+
+
+set search_path ". /home/icic/Desktop/adder/search"
+set base_dir " /home/icic/Desktop/adder/search/synthesis"
+set link_library {"/home/icic/Desktop/bit32/lib/tsmc_0.18u.db"}
+set target_library  {"/home/icic/Desktop/bit32/lib/tsmc_0.18u.db"}
+set symbol_library  {"/home/icic/Desktop/bit32/lib/tsmc18.sdb"}
+analyze -library WORK -format vhdl {/home/icic/Desktop/adder/source/Exact_Adder_Function.vhd
+/home/icic/Desktop/adder/source/behavioral.vhd}
+elaborate Behavioral -architecture Behavioral -library work
+set auto_wire_load_selection "true"
+compile_ultra -no_autoungroup
+write -hierarchy -format vhdl -output  /home/icic/Desktop/adder/out/behavioral.vhd
+
+وارد کردن فایل saif
+
+read_saif -input full.saif -instance multiplier_tb/uut
+report_timing > ./reports/timing_run1.txt
+report_power > ./reports/power_run1.txt
+report_area > ./reports/area_run1.txt
+report_qor  > ./reports/qor_run1.txt
+report_transitive_fanout -clock_tree -nosplit > ./reports/clk_1_run1.txt
+report_constraint -all_violators -significant_digits 2 > ./reports/violations_run1.txt
+write_file -format verilog -hierarchy -output ./reports/frame1.v
+write_sdc  ./reports/frame1.sdc
