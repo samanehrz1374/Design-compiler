@@ -1,0 +1,992 @@
+{C:/Users/LENOVO/Desktop/New folder/tsmc18.v} {1 {vlog -work work -vopt -stats=none {C:/Users/LENOVO/Desktop/New folder/tsmc18.v}
+Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
+-- Compiling module BENCX1
+-- Compiling module BENCX2
+-- Compiling module BENCX4
+-- Compiling module BMXX1
+-- Compiling module CMPR22X1
+-- Compiling module CMPR32X1
+-- Compiling module CMPR42X1
+-- Compiling module CMPR42X2
+-- Compiling module AFHCINX2
+-- Compiling module AFHCINX4
+-- Compiling module AFHCONX2
+-- Compiling module AFHCONX4
+-- Compiling module AHHCINX2
+-- Compiling module AHHCINX4
+-- Compiling module AHHCONX2
+-- Compiling module AHHCONX4
+-- Compiling module AFCSHCINX2
+-- Compiling module AFCSHCINX4
+-- Compiling module AFCSHCONX2
+-- Compiling module AFCSHCONX4
+-- Compiling module XNOR3X2
+-- Compiling module XNOR3X4
+-- Compiling module XOR3X2
+-- Compiling module XOR3X4
+-- Compiling module RFRDX1
+-- Compiling module RFRDX2
+-- Compiling module RFRDX4
+-- Compiling module RF2R1WX2
+-- Compiling module RF1R1WX2
+-- Compiling module ADDFHX1
+-- Compiling module ADDFHX2
+-- Compiling module ADDFHX4
+-- Compiling module ADDFHXL
+-- Compiling module ADDFX1
+-- Compiling module ADDFX2
+-- Compiling module ADDFX4
+-- Compiling module ADDFXL
+-- Compiling module ADDHX1
+-- Compiling module ADDHX2
+-- Compiling module ADDHX4
+-- Compiling module ADDHXL
+-- Compiling module AND2X1
+-- Compiling module AND2X2
+-- Compiling module AND2X4
+-- Compiling module AND2XL
+-- Compiling module AND3X1
+-- Compiling module AND3X2
+-- Compiling module AND3X4
+-- Compiling module AND3XL
+-- Compiling module AND4X1
+-- Compiling module AND4X2
+-- Compiling module AND4X4
+-- Compiling module AND4XL
+-- Compiling module AOI211X1
+-- Compiling module AOI211X2
+-- Compiling module AOI211X4
+-- Compiling module AOI211XL
+-- Compiling module AOI21X1
+-- Compiling module AOI21X2
+-- Compiling module AOI21X4
+-- Compiling module AOI21XL
+-- Compiling module AOI221X1
+-- Compiling module AOI221X2
+-- Compiling module AOI221X4
+-- Compiling module AOI221XL
+-- Compiling module AOI222X1
+-- Compiling module AOI222X2
+-- Compiling module AOI222X4
+-- Compiling module AOI222XL
+-- Compiling module AOI22X1
+-- Compiling module AOI22X2
+-- Compiling module AOI22X4
+-- Compiling module AOI22XL
+-- Compiling module AOI2BB1X1
+-- Compiling module AOI2BB1X2
+-- Compiling module AOI2BB1X4
+-- Compiling module AOI2BB1XL
+-- Compiling module AOI2BB2X1
+-- Compiling module AOI2BB2X2
+-- Compiling module AOI2BB2X4
+-- Compiling module AOI2BB2XL
+-- Compiling module AOI31X1
+-- Compiling module AOI31X2
+-- Compiling module AOI31X4
+-- Compiling module AOI31XL
+-- Compiling module AOI32X1
+-- Compiling module AOI32X2
+-- Compiling module AOI32X4
+-- Compiling module AOI32XL
+-- Compiling module AOI33X1
+-- Compiling module AOI33X2
+-- Compiling module AOI33X4
+-- Compiling module AOI33XL
+-- Compiling module BUFX12
+-- Compiling module BUFX16
+-- Compiling module BUFX1
+-- Compiling module BUFX20
+-- Compiling module BUFX2
+-- Compiling module BUFX3
+-- Compiling module BUFX4
+-- Compiling module BUFX8
+-- Compiling module BUFXL
+-- Compiling module CLKBUFX12
+-- Compiling module CLKBUFX16
+-- Compiling module CLKBUFX1
+-- Compiling module CLKBUFX20
+-- Compiling module CLKBUFX2
+-- Compiling module CLKBUFX3
+-- Compiling module CLKBUFX4
+-- Compiling module CLKBUFX8
+-- Compiling module CLKBUFXL
+-- Compiling module CLKINVX12
+-- Compiling module CLKINVX16
+-- Compiling module CLKINVX1
+-- Compiling module CLKINVX20
+-- Compiling module CLKINVX2
+-- Compiling module CLKINVX3
+-- Compiling module CLKINVX4
+-- Compiling module CLKINVX8
+-- Compiling module CLKINVXL
+-- Compiling module DFFX1
+-- Compiling module DFFX2
+-- Compiling module DFFX4
+-- Compiling module DFFXL
+-- Compiling module DFFHQX1
+-- Compiling module DFFHQX2
+-- Compiling module DFFHQX4
+-- Compiling module DFFHQXL
+-- Compiling module DFFNX1
+-- Compiling module DFFNX2
+-- Compiling module DFFNX4
+-- Compiling module DFFNXL
+-- Compiling module DFFNRX1
+-- Compiling module DFFNRX2
+-- Compiling module DFFNRX4
+-- Compiling module DFFNRXL
+-- Compiling module DFFNSX1
+-- Compiling module DFFNSX2
+-- Compiling module DFFNSX4
+-- Compiling module DFFNSXL
+-- Compiling module DFFNSRX1
+-- Compiling module DFFNSRX2
+-- Compiling module DFFNSRX4
+-- Compiling module DFFNSRXL
+-- Compiling module DFFRX1
+-- Compiling module DFFRX2
+-- Compiling module DFFRX4
+-- Compiling module DFFRXL
+-- Compiling module DFFRHQX1
+-- Compiling module DFFRHQX2
+-- Compiling module DFFRHQX4
+-- Compiling module DFFRHQXL
+-- Compiling module DFFSX1
+-- Compiling module DFFSX2
+-- Compiling module DFFSX4
+-- Compiling module DFFSXL
+-- Compiling module DFFSHQX1
+-- Compiling module DFFSHQX2
+-- Compiling module DFFSHQX4
+-- Compiling module DFFSHQXL
+-- Compiling module DFFSRX1
+-- Compiling module DFFSRX2
+-- Compiling module DFFSRX4
+-- Compiling module DFFSRXL
+-- Compiling module DFFSRHQX1
+-- Compiling module DFFSRHQX2
+-- Compiling module DFFSRHQX4
+-- Compiling module DFFSRHQXL
+-- Compiling module DFFTRX1
+-- Compiling module DFFTRX2
+-- Compiling module DFFTRX4
+-- Compiling module DFFTRXL
+-- Compiling module DLY1X1
+-- Compiling module DLY2X1
+-- Compiling module DLY3X1
+-- Compiling module DLY4X1
+-- Compiling module EDFFX1
+-- Compiling module EDFFX2
+-- Compiling module EDFFX4
+-- Compiling module EDFFXL
+-- Compiling module EDFFTRX1
+-- Compiling module EDFFTRX2
+-- Compiling module EDFFTRX4
+-- Compiling module EDFFTRXL
+-- Compiling module HOLDX1
+-- Compiling module INVX12
+-- Compiling module INVX16
+-- Compiling module INVX1
+-- Compiling module INVX20
+-- Compiling module INVX2
+-- Compiling module INVX3
+-- Compiling module INVX4
+-- Compiling module INVX8
+-- Compiling module INVXL
+-- Compiling module JKFFX1
+-- Compiling module JKFFX2
+-- Compiling module JKFFX4
+-- Compiling module JKFFXL
+-- Compiling module JKFFRX1
+-- Compiling module JKFFRX2
+-- Compiling module JKFFRX4
+-- Compiling module JKFFRXL
+-- Compiling module JKFFSX1
+-- Compiling module JKFFSX2
+-- Compiling module JKFFSX4
+-- Compiling module JKFFSXL
+-- Compiling module JKFFSRX1
+-- Compiling module JKFFSRX2
+-- Compiling module JKFFSRX4
+-- Compiling module JKFFSRXL
+-- Compiling module MX2X1
+-- Compiling module MX2X2
+-- Compiling module MX2X4
+-- Compiling module MX2XL
+-- Compiling module MX4X1
+-- Compiling module MX4X2
+-- Compiling module MX4X4
+-- Compiling module MX4XL
+-- Compiling module MXI2X1
+-- Compiling module MXI2X2
+-- Compiling module MXI2X4
+-- Compiling module MXI2XL
+-- Compiling module MXI4X1
+-- Compiling module MXI4X2
+-- Compiling module MXI4X4
+-- Compiling module MXI4XL
+-- Compiling module NAND2X1
+-- Compiling module NAND2X2
+-- Compiling module NAND2X4
+-- Compiling module NAND2XL
+-- Compiling module NAND2BX1
+-- Compiling module NAND2BX2
+-- Compiling module NAND2BX4
+-- Compiling module NAND2BXL
+-- Compiling module NAND3X1
+-- Compiling module NAND3X2
+-- Compiling module NAND3X4
+-- Compiling module NAND3XL
+-- Compiling module NAND3BX1
+-- Compiling module NAND3BX2
+-- Compiling module NAND3BX4
+-- Compiling module NAND3BXL
+-- Compiling module NAND4X1
+-- Compiling module NAND4X2
+-- Compiling module NAND4X4
+-- Compiling module NAND4XL
+-- Compiling module NAND4BX1
+-- Compiling module NAND4BX2
+-- Compiling module NAND4BX4
+-- Compiling module NAND4BXL
+-- Compiling module NAND4BBX1
+-- Compiling module NAND4BBX2
+-- Compiling module NAND4BBX4
+-- Compiling module NAND4BBXL
+-- Compiling module NOR2X1
+-- Compiling module NOR2X2
+-- Compiling module NOR2X4
+-- Compiling module NOR2XL
+-- Compiling module NOR2BX1
+-- Compiling module NOR2BX2
+-- Compiling module NOR2BX4
+-- Compiling module NOR2BXL
+-- Compiling module NOR3X1
+-- Compiling module NOR3X2
+-- Compiling module NOR3X4
+-- Compiling module NOR3XL
+-- Compiling module NOR3BX1
+-- Compiling module NOR3BX2
+-- Compiling module NOR3BX4
+-- Compiling module NOR3BXL
+-- Compiling module NOR4X1
+-- Compiling module NOR4X2
+-- Compiling module NOR4X4
+-- Compiling module NOR4XL
+-- Compiling module NOR4BX1
+-- Compiling module NOR4BX2
+-- Compiling module NOR4BX4
+-- Compiling module NOR4BXL
+-- Compiling module NOR4BBX1
+-- Compiling module NOR4BBX2
+-- Compiling module NOR4BBX4
+-- Compiling module NOR4BBXL
+-- Compiling module OAI211X1
+-- Compiling module OAI211X2
+-- Compiling module OAI211X4
+-- Compiling module OAI211XL
+-- Compiling module OAI21X1
+-- Compiling module OAI21X2
+-- Compiling module OAI21X4
+-- Compiling module OAI21XL
+-- Compiling module OAI221X1
+-- Compiling module OAI221X2
+-- Compiling module OAI221X4
+-- Compiling module OAI221XL
+-- Compiling module OAI222X1
+-- Compiling module OAI222X2
+-- Compiling module OAI222X4
+-- Compiling module OAI222XL
+-- Compiling module OAI22X1
+-- Compiling module OAI22X2
+-- Compiling module OAI22X4
+-- Compiling module OAI22XL
+-- Compiling module OAI2BB1X1
+-- Compiling module OAI2BB1X2
+-- Compiling module OAI2BB1X4
+-- Compiling module OAI2BB1XL
+-- Compiling module OAI2BB2X1
+-- Compiling module OAI2BB2X2
+-- Compiling module OAI2BB2X4
+-- Compiling module OAI2BB2XL
+-- Compiling module OAI31X1
+-- Compiling module OAI31X2
+-- Compiling module OAI31X4
+-- Compiling module OAI31XL
+-- Compiling module OAI32X1
+-- Compiling module OAI32X2
+-- Compiling module OAI32X4
+-- Compiling module OAI32XL
+-- Compiling module OAI33X1
+-- Compiling module OAI33X2
+-- Compiling module OAI33X4
+-- Compiling module OAI33XL
+-- Compiling module OR2X1
+-- Compiling module OR2X2
+-- Compiling module OR2X4
+-- Compiling module OR2XL
+-- Compiling module OR3X1
+-- Compiling module OR3X2
+-- Compiling module OR3X4
+-- Compiling module OR3XL
+-- Compiling module OR4X1
+-- Compiling module OR4X2
+-- Compiling module OR4X4
+-- Compiling module OR4XL
+-- Compiling module RSLATX1
+-- Compiling module RSLATX2
+-- Compiling module RSLATX4
+-- Compiling module RSLATXL
+-- Compiling module RSLATNX1
+-- Compiling module RSLATNX2
+-- Compiling module RSLATNX4
+-- Compiling module RSLATNXL
+-- Compiling module SDFFX1
+-- Compiling module SDFFX2
+-- Compiling module SDFFX4
+-- Compiling module SDFFXL
+-- Compiling module SDFFHQX1
+-- Compiling module SDFFHQX2
+-- Compiling module SDFFHQX4
+-- Compiling module SDFFHQXL
+-- Compiling module SDFFNX1
+-- Compiling module SDFFNX2
+-- Compiling module SDFFNX4
+-- Compiling module SDFFNXL
+-- Compiling module SDFFNRX1
+-- Compiling module SDFFNRX2
+-- Compiling module SDFFNRX4
+-- Compiling module SDFFNRXL
+-- Compiling module SDFFNSX1
+-- Compiling module SDFFNSX2
+-- Compiling module SDFFNSX4
+-- Compiling module SDFFNSXL
+-- Compiling module SDFFNSRX1
+-- Compiling module SDFFNSRX2
+-- Compiling module SDFFNSRX4
+-- Compiling module SDFFNSRXL
+-- Compiling module SDFFRX1
+-- Compiling module SDFFRX2
+-- Compiling module SDFFRX4
+-- Compiling module SDFFRXL
+-- Compiling module SDFFRHQX1
+-- Compiling module SDFFRHQX2
+-- Compiling module SDFFRHQX4
+-- Compiling module SDFFRHQXL
+-- Compiling module SDFFSX1
+-- Compiling module SDFFSX2
+-- Compiling module SDFFSX4
+-- Compiling module SDFFSXL
+-- Compiling module SDFFSHQX1
+-- Compiling module SDFFSHQX2
+-- Compiling module SDFFSHQX4
+-- Compiling module SDFFSHQXL
+-- Compiling module SDFFSRX1
+-- Compiling module SDFFSRX2
+-- Compiling module SDFFSRX4
+-- Compiling module SDFFSRXL
+-- Compiling module SDFFSRHQX1
+-- Compiling module SDFFSRHQX2
+-- Compiling module SDFFSRHQX4
+-- Compiling module SDFFSRHQXL
+-- Compiling module SDFFTRX1
+-- Compiling module SDFFTRX2
+-- Compiling module SDFFTRX4
+-- Compiling module SDFFTRXL
+-- Compiling module SEDFFHQX1
+-- Compiling module SEDFFHQX2
+-- Compiling module SEDFFHQX4
+-- Compiling module SEDFFHQXL
+-- Compiling module SEDFFX1
+-- Compiling module SEDFFX2
+-- Compiling module SEDFFX4
+-- Compiling module SEDFFXL
+-- Compiling module SEDFFTRX1
+-- Compiling module SEDFFTRX2
+-- Compiling module SEDFFTRX4
+-- Compiling module SEDFFTRXL
+-- Compiling module TBUFX12
+-- Compiling module TBUFX16
+-- Compiling module TBUFX1
+-- Compiling module TBUFX20
+-- Compiling module TBUFX2
+-- Compiling module TBUFX3
+-- Compiling module TBUFX4
+-- Compiling module TBUFX8
+-- Compiling module TBUFXL
+-- Compiling module TBUFIX12
+-- Compiling module TBUFIX16
+-- Compiling module TBUFIX1
+-- Compiling module TBUFIX20
+-- Compiling module TBUFIX2
+-- Compiling module TBUFIX3
+-- Compiling module TBUFIX4
+-- Compiling module TBUFIX8
+-- Compiling module TBUFIXL
+-- Compiling module TIEHI
+-- Compiling module TIELO
+-- Compiling module TTLATX1
+-- Compiling module TTLATX2
+-- Compiling module TTLATX4
+-- Compiling module TTLATXL
+-- Compiling module TLATX1
+-- Compiling module TLATX2
+-- Compiling module TLATX4
+-- Compiling module TLATXL
+-- Compiling module TLATNX1
+-- Compiling module TLATNX2
+-- Compiling module TLATNX4
+-- Compiling module TLATNXL
+-- Compiling module TLATNRX1
+-- Compiling module TLATNRX2
+-- Compiling module TLATNRX4
+-- Compiling module TLATNRXL
+-- Compiling module TLATNSX1
+-- Compiling module TLATNSX2
+-- Compiling module TLATNSX4
+-- Compiling module TLATNSXL
+-- Compiling module TLATNSRX1
+-- Compiling module TLATNSRX2
+-- Compiling module TLATNSRX4
+-- Compiling module TLATNSRXL
+-- Compiling module TLATRX1
+-- Compiling module TLATRX2
+-- Compiling module TLATRX4
+-- Compiling module TLATRXL
+-- Compiling module TLATSX1
+-- Compiling module TLATSX2
+-- Compiling module TLATSX4
+-- Compiling module TLATSXL
+-- Compiling module TLATSRX1
+-- Compiling module TLATSRX2
+-- Compiling module TLATSRX4
+-- Compiling module TLATSRXL
+-- Compiling module XNOR2X1
+-- Compiling module XNOR2X2
+-- Compiling module XNOR2X4
+-- Compiling module XNOR2XL
+-- Compiling module XOR2X1
+-- Compiling module XOR2X2
+-- Compiling module XOR2X4
+-- Compiling module XOR2XL
+-- Compiling UDP udp_mux
+-- Compiling UDP udp_sedfft
+-- Compiling UDP udp_rslat_out_
+-- Compiling UDP udp_rslat_out
+-- Compiling UDP udp_jkff
+-- Compiling UDP udp_bmx
+-- Compiling UDP udp_sedff
+-- Compiling UDP udp_edfft
+-- Compiling UDP udp_rslatn_out_
+-- Compiling UDP udp_rslatn_out
+-- Compiling UDP udp_mux2
+-- Compiling UDP udp_tlatrf
+-- Compiling UDP udp_mux4
+-- Compiling UDP udp_dff
+-- Compiling UDP udp_outrf
+-- Compiling UDP udp_tlat
+-- Compiling UDP udp_edff
+
+Top level modules:
+	BENCX1
+	BENCX2
+	BENCX4
+	BMXX1
+	CMPR22X1
+	CMPR32X1
+	CMPR42X1
+	CMPR42X2
+	AFHCINX2
+	AFHCINX4
+	AFHCONX2
+	AFHCONX4
+	AHHCINX2
+	AHHCINX4
+	AHHCONX2
+	AHHCONX4
+	AFCSHCINX2
+	AFCSHCINX4
+	AFCSHCONX2
+	AFCSHCONX4
+	XNOR3X2
+	XNOR3X4
+	XOR3X2
+	XOR3X4
+	RFRDX1
+	RFRDX2
+	RFRDX4
+	RF2R1WX2
+	RF1R1WX2
+	ADDFHX1
+	ADDFHX2
+	ADDFHX4
+	ADDFHXL
+	ADDFX1
+	ADDFX2
+	ADDFX4
+	ADDFXL
+	ADDHX1
+	ADDHX2
+	ADDHX4
+	ADDHXL
+	AND2X1
+	AND2X2
+	AND2X4
+	AND2XL
+	AND3X1
+	AND3X2
+	AND3X4
+	AND3XL
+	AND4X1
+	AND4X2
+	AND4X4
+	AND4XL
+	AOI211X1
+	AOI211X2
+	AOI211X4
+	AOI211XL
+	AOI21X1
+	AOI21X2
+	AOI21X4
+	AOI21XL
+	AOI221X1
+	AOI221X2
+	AOI221X4
+	AOI221XL
+	AOI222X1
+	AOI222X2
+	AOI222X4
+	AOI222XL
+	AOI22X1
+	AOI22X2
+	AOI22X4
+	AOI22XL
+	AOI2BB1X1
+	AOI2BB1X2
+	AOI2BB1X4
+	AOI2BB1XL
+	AOI2BB2X1
+	AOI2BB2X2
+	AOI2BB2X4
+	AOI2BB2XL
+	AOI31X1
+	AOI31X2
+	AOI31X4
+	AOI31XL
+	AOI32X1
+	AOI32X2
+	AOI32X4
+	AOI32XL
+	AOI33X1
+	AOI33X2
+	AOI33X4
+	AOI33XL
+	BUFX12
+	BUFX16
+	BUFX1
+	BUFX20
+	BUFX2
+	BUFX3
+	BUFX4
+	BUFX8
+	BUFXL
+	CLKBUFX12
+	CLKBUFX16
+	CLKBUFX1
+	CLKBUFX20
+	CLKBUFX2
+	CLKBUFX3
+	CLKBUFX4
+	CLKBUFX8
+	CLKBUFXL
+	CLKINVX12
+	CLKINVX16
+	CLKINVX1
+	CLKINVX20
+	CLKINVX2
+	CLKINVX3
+	CLKINVX4
+	CLKINVX8
+	CLKINVXL
+	DFFX1
+	DFFX2
+	DFFX4
+	DFFXL
+	DFFHQX1
+	DFFHQX2
+	DFFHQX4
+	DFFHQXL
+	DFFNX1
+	DFFNX2
+	DFFNX4
+	DFFNXL
+	DFFNRX1
+	DFFNRX2
+	DFFNRX4
+	DFFNRXL
+	DFFNSX1
+	DFFNSX2
+	DFFNSX4
+	DFFNSXL
+	DFFNSRX1
+	DFFNSRX2
+	DFFNSRX4
+	DFFNSRXL
+	DFFRX1
+	DFFRX2
+	DFFRX4
+	DFFRXL
+	DFFRHQX1
+	DFFRHQX2
+	DFFRHQX4
+	DFFRHQXL
+	DFFSX1
+	DFFSX2
+	DFFSX4
+	DFFSXL
+	DFFSHQX1
+	DFFSHQX2
+	DFFSHQX4
+	DFFSHQXL
+	DFFSRX1
+	DFFSRX2
+	DFFSRX4
+	DFFSRXL
+	DFFSRHQX1
+	DFFSRHQX2
+	DFFSRHQX4
+	DFFSRHQXL
+	DFFTRX1
+	DFFTRX2
+	DFFTRX4
+	DFFTRXL
+	DLY1X1
+	DLY2X1
+	DLY3X1
+	DLY4X1
+	EDFFX1
+	EDFFX2
+	EDFFX4
+	EDFFXL
+	EDFFTRX1
+	EDFFTRX2
+	EDFFTRX4
+	EDFFTRXL
+	HOLDX1
+	INVX12
+	INVX16
+	INVX1
+	INVX20
+	INVX2
+	INVX3
+	INVX4
+	INVX8
+	INVXL
+	JKFFX1
+	JKFFX2
+	JKFFX4
+	JKFFXL
+	JKFFRX1
+	JKFFRX2
+	JKFFRX4
+	JKFFRXL
+	JKFFSX1
+	JKFFSX2
+	JKFFSX4
+	JKFFSXL
+	JKFFSRX1
+	JKFFSRX2
+	JKFFSRX4
+	JKFFSRXL
+	MX2X1
+	MX2X2
+	MX2X4
+	MX2XL
+	MX4X1
+	MX4X2
+	MX4X4
+	MX4XL
+	MXI2X1
+	MXI2X2
+	MXI2X4
+	MXI2XL
+	MXI4X1
+	MXI4X2
+	MXI4X4
+	MXI4XL
+	NAND2X1
+	NAND2X2
+	NAND2X4
+	NAND2XL
+	NAND2BX1
+	NAND2BX2
+	NAND2BX4
+	NAND2BXL
+	NAND3X1
+	NAND3X2
+	NAND3X4
+	NAND3XL
+	NAND3BX1
+	NAND3BX2
+	NAND3BX4
+	NAND3BXL
+	NAND4X1
+	NAND4X2
+	NAND4X4
+	NAND4XL
+	NAND4BX1
+	NAND4BX2
+	NAND4BX4
+	NAND4BXL
+	NAND4BBX1
+	NAND4BBX2
+	NAND4BBX4
+	NAND4BBXL
+	NOR2X1
+	NOR2X2
+	NOR2X4
+	NOR2XL
+	NOR2BX1
+	NOR2BX2
+	NOR2BX4
+	NOR2BXL
+	NOR3X1
+	NOR3X2
+	NOR3X4
+	NOR3XL
+	NOR3BX1
+	NOR3BX2
+	NOR3BX4
+	NOR3BXL
+	NOR4X1
+	NOR4X2
+	NOR4X4
+	NOR4XL
+	NOR4BX1
+	NOR4BX2
+	NOR4BX4
+	NOR4BXL
+	NOR4BBX1
+	NOR4BBX2
+	NOR4BBX4
+	NOR4BBXL
+	OAI211X1
+	OAI211X2
+	OAI211X4
+	OAI211XL
+	OAI21X1
+	OAI21X2
+	OAI21X4
+	OAI21XL
+	OAI221X1
+	OAI221X2
+	OAI221X4
+	OAI221XL
+	OAI222X1
+	OAI222X2
+	OAI222X4
+	OAI222XL
+	OAI22X1
+	OAI22X2
+	OAI22X4
+	OAI22XL
+	OAI2BB1X1
+	OAI2BB1X2
+	OAI2BB1X4
+	OAI2BB1XL
+	OAI2BB2X1
+	OAI2BB2X2
+	OAI2BB2X4
+	OAI2BB2XL
+	OAI31X1
+	OAI31X2
+	OAI31X4
+	OAI31XL
+	OAI32X1
+	OAI32X2
+	OAI32X4
+	OAI32XL
+	OAI33X1
+	OAI33X2
+	OAI33X4
+	OAI33XL
+	OR2X1
+	OR2X2
+	OR2X4
+	OR2XL
+	OR3X1
+	OR3X2
+	OR3X4
+	OR3XL
+	OR4X1
+	OR4X2
+	OR4X4
+	OR4XL
+	RSLATX1
+	RSLATX2
+	RSLATX4
+	RSLATXL
+	RSLATNX1
+	RSLATNX2
+	RSLATNX4
+	RSLATNXL
+	SDFFX1
+	SDFFX2
+	SDFFX4
+	SDFFXL
+	SDFFHQX1
+	SDFFHQX2
+	SDFFHQX4
+	SDFFHQXL
+	SDFFNX1
+	SDFFNX2
+	SDFFNX4
+	SDFFNXL
+	SDFFNRX1
+	SDFFNRX2
+	SDFFNRX4
+	SDFFNRXL
+	SDFFNSX1
+	SDFFNSX2
+	SDFFNSX4
+	SDFFNSXL
+	SDFFNSRX1
+	SDFFNSRX2
+	SDFFNSRX4
+	SDFFNSRXL
+	SDFFRX1
+	SDFFRX2
+	SDFFRX4
+	SDFFRXL
+	SDFFRHQX1
+	SDFFRHQX2
+	SDFFRHQX4
+	SDFFRHQXL
+	SDFFSX1
+	SDFFSX2
+	SDFFSX4
+	SDFFSXL
+	SDFFSHQX1
+	SDFFSHQX2
+	SDFFSHQX4
+	SDFFSHQXL
+	SDFFSRX1
+	SDFFSRX2
+	SDFFSRX4
+	SDFFSRXL
+	SDFFSRHQX1
+	SDFFSRHQX2
+	SDFFSRHQX4
+	SDFFSRHQXL
+	SDFFTRX1
+	SDFFTRX2
+	SDFFTRX4
+	SDFFTRXL
+	SEDFFHQX1
+	SEDFFHQX2
+	SEDFFHQX4
+	SEDFFHQXL
+	SEDFFX1
+	SEDFFX2
+	SEDFFX4
+	SEDFFXL
+	SEDFFTRX1
+	SEDFFTRX2
+	SEDFFTRX4
+	SEDFFTRXL
+	TBUFX12
+	TBUFX16
+	TBUFX1
+	TBUFX20
+	TBUFX2
+	TBUFX3
+	TBUFX4
+	TBUFX8
+	TBUFXL
+	TBUFIX12
+	TBUFIX16
+	TBUFIX1
+	TBUFIX20
+	TBUFIX2
+	TBUFIX3
+	TBUFIX4
+	TBUFIX8
+	TBUFIXL
+	TIEHI
+	TIELO
+	TTLATX1
+	TTLATX2
+	TTLATX4
+	TTLATXL
+	TLATX1
+	TLATX2
+	TLATX4
+	TLATXL
+	TLATNX1
+	TLATNX2
+	TLATNX4
+	TLATNXL
+	TLATNRX1
+	TLATNRX2
+	TLATNRX4
+	TLATNRXL
+	TLATNSX1
+	TLATNSX2
+	TLATNSX4
+	TLATNSXL
+	TLATNSRX1
+	TLATNSRX2
+	TLATNSRX4
+	TLATNSRXL
+	TLATRX1
+	TLATRX2
+	TLATRX4
+	TLATRXL
+	TLATSX1
+	TLATSX2
+	TLATSX4
+	TLATSXL
+	TLATSRX1
+	TLATSRX2
+	TLATSRX4
+	TLATSRXL
+	XNOR2X1
+	XNOR2X2
+	XNOR2X4
+	XNOR2XL
+	XOR2X1
+	XOR2X2
+	XOR2X4
+	XOR2XL
+
+} {} {}} {C:/Users/LENOVO/Desktop/New folder/Exact_Adder_Function.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/LENOVO/Desktop/New folder/Exact_Adder_Function.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package Exact_Adder_Function
+-- Compiling package body Exact_Adder_Function
+-- Loading package Exact_Adder_Function
+
+} {} {}} {C:/Users/LENOVO/Desktop/New folder/behavioral.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/LENOVO/Desktop/New folder/behavioral.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling package CONV_PACK_behavioral
+-- Loading package CONV_PACK_behavioral
+-- Compiling entity behavioral
+-- Compiling architecture SYN_behavioral of behavioral
+
+} {} {}} {C:/Users/LENOVO/Desktop/New folder/tb.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {C:/Users/LENOVO/Desktop/New folder/tb.vhd}
+Model Technology ModelSim SE-64 vcom 10.6d Compiler 2018.02 Feb 24 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity multiplier_tb
+-- Compiling architecture Behavioral of multiplier_tb
+
+} {} {}}
